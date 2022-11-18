@@ -1,0 +1,36 @@
+section{
+
+    width: 100%;
+    background-color: lightblue;
+    height: 500px;
+}
+
+
+
+#tableau_block{
+
+
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap ;
+    margin: 20px 100px;
+    background-color: rebeccapurple;
+    width: auto;
+    height: 90%;
+    
+}
+
+.empty_block{
+
+    visibility: hidden;
+}
+img:hover{
+
+    transform: scale(1.2);
+}
+
+img{
+
+    height: 100%;
+    width: 100%;
+}
